@@ -19,6 +19,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "@fab/static": "^0.1.4",
     "prettier": "^1.17.0"
   },
   "keywords": [
@@ -31,7 +32,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "build:fab": "npm run build && npm run fab:compile",
+    "fab:compile": "fab-static public"
   },
   "repository": {
     "type": "git",
