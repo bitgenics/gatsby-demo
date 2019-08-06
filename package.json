@@ -19,7 +19,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "@fab/static": "^0.1.4",
+    "@fab/static": "^0.1.8",
     "prettier": "^1.18.2"
   },
   "keywords": [
